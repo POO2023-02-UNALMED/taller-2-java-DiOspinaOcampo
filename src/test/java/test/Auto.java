@@ -1,15 +1,13 @@
 
 package test;
 public class Auto {
-
-	public static void main(String[] args) {
 	    String modelo;
 	    int precio;
 	    Asiento[] asientos;
 	    String marca;
 	    Motor motor;
 	    int registro;
-	    static int cantidadCreados;
+	    int cantidadCreados;
 	    
 	    public Auto(String modelo, int precio, Asiento[] asientos, String marca, Motor motor, int registro) {
 	        this.modelo = modelo;
@@ -46,6 +44,5 @@ public class Auto {
 	        
 	        return "Auto original";
 	    }
-	}
 
 }
