@@ -1,13 +1,19 @@
 package test;
+
 public class Motor {
-	int numeroCilindros;
+    int numeroCilindros;
     String tipo;
     int registro;
+    
+    public Motor() {
+        
+    }
     
     public Motor(int numeroCilindros, int registro) {
         this.numeroCilindros = numeroCilindros;
         this.registro = registro;
     }
+    
     public Motor(int numeroCilindros, int registro, String tipo) {
         this.numeroCilindros = numeroCilindros;
         this.registro = registro;
@@ -26,5 +32,5 @@ public class Motor {
                 break;
             }
         }
-      }
+    }
 }

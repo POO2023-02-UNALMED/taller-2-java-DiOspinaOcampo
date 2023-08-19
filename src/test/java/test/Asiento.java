@@ -1,8 +1,13 @@
 package test;
+
 public class Asiento {
-	String color;
+    String color;
     int precio;
     int registro;
+    
+    public Asiento() {
+        
+    }
     
     public Asiento(String color, int precio, int registro) {
         this.color = color;
