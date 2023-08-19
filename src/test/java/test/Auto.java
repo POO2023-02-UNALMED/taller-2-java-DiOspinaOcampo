@@ -1,5 +1,4 @@
 package test;
-
 public class Auto {
     String modelo;
     int precio;
@@ -41,7 +40,7 @@ public class Auto {
         }
         
         for(Asiento asiento: this.asientos) {
-            if(this.registro != asiento.registro) {
+            if(asiento != null && this.registro != asiento.registro) {
                 return mensajeErroneo;
             }
         }
